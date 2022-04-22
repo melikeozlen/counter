@@ -1,0 +1,90 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Mouse Memoirs', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Offside', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Palette Mosaic', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Qahiri', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.conteiner{
+    box-shadow: 2px 2px 15px #4E944F;
+    width: 280px;
+    height: 250px;
+    background-color: #98ff703a;
+    display: grid;
+    grid-template-rows: 3fr 1fr 2fr 1fr;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    padding-bottom: 10px;
+    
+    
+}
+.ekran{
+    margin-top: 15px;
+    background-color:#B4E197; 
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+}
+p{
+    margin-top: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0px;
+    color: #B4E197;
+}
+p:hover{
+    letter-spacing: 3px;
+    cursor: pointer;
+    
+    transition: .5s;
+
+    
+}
+p:after{
+    content: "";
+    position:absolute;
+    width: 0;
+    left: auto;
+    right: auto;
+    bottom: 0;
+    height: 2px;
+    background-color: #B4E197;
+    transition: width .3s;
+}
+
+p:hover:after{
+    width: 30%;
+}
+button{
+    font-weight: 700;
+    background-color: #B4E197;
+    color: white;
+    margin: 10px;
+    border: 0;
+    padding: 10px;
+    border-radius: 50px;
+}
+button:hover{
+
+    transition: .3s;
+    background-color: rgb(154, 220, 255);
+}
+
